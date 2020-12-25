@@ -1,0 +1,60 @@
+.breadcrumb-item + .breadcrumb-item::before{
+	content:">";
+ }
+ /*  */
+ .w-15{
+	 width: 15%;
+ }
+ img.w-15:hover{
+	 border: 1px solid #666;
+	 margin: 1px 0 0 1px;
+ }
+ .my_shadow{
+	 box-shadow:0 -1px 8px 3px #ccc,
+ }
+.btn-outline-secondary{
+	border-radius: 0;
+	margin: 2px;
+	font-size: 0.8rem;
+}
+.btn-outline-secondary:hover{
+	 background: transparent !important;
+	 color: #007BFF;
+	 border-color:#007BFF !important;
+ }
+ .btn-outline-secondary.active{
+ 	 border-color: #0AA1ED !important;
+	  color: #999 !important;
+	 background: transparent !important;
+ }
+ /*  */
+ /* .b_box{
+	 box-shadow: 3px 3px 10px rgba(0,0,0,.1),
+				 -3px -3px 10px rgba(0,0,0,.1);
+ }
+ .btn-outline-secondary:hover{
+	 background: transparent !important;
+	 color: #007BFF;
+	 border:1px solid #007BFF !important;
+ }
+ .w-10{
+ 	width: 2.1rem;
+	height: 2rem;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #ddd !important;
+ }
+ .list_btn1{
+ 	width: 2rem;height: 2rem;
+ 	border: 0;
+ 	outline: none;
+ 	color: black;
+	border: 1px solid #ddd;
+ 	font-weight: bold;
+ 	line-height: 1;
+ 	padding-top: 0;
+ 	padding-bottom: 0.25rem;
+ }
+ .list_btn1:focus{
+ 	outline: 0;
+ } */
